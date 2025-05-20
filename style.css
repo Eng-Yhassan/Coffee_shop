@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.Header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.btn-order{
+    background-color: chocolate;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 21px;
+    border-radius: 4px;
+}
+
+.btn-sign{
+    background-color: white;
+    padding: 10px 30px;
+    border: 2px solid chocolate ;
+    color: black;
+    font-size: 21px;
+    border-radius: 4px;
+}
+.Header span{
+    color: chocolate;
+}
+.Hero span{
+    color: chocolate;
+}
+.Hero img{
+    width: 1150px;
+}
+
+.Hero{
+    text-align: center;
+}
+
+.Hero h1{
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.Hero h2{
+    margin-left: -500px;
+}
+
+.Date{
+    margin-left: -1010px;
+    margin-bottom: 90px;
+    color: gray;
+}
+
+
+.Blog1 img{
+    width: 200px;
+}
+
+.Blog1{
+    display: flex;
+    gap: 30px;
+    margin: 50px 100px;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.Footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.Footer p{
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.Footer h1{
+    font-size: 50px;
+}
+
+.Footer span{
+    color: chocolate;
+}
+
+.btn-read button{
+    background-color: white;
+    
+    border: 2px solid chocolate ;
+    color: black;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 40px 600px;
+}
